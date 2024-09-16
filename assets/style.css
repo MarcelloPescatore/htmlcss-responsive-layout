@@ -54,6 +54,12 @@ span, a{
     color: var(--cl-txt_secondary);
 }
 
+.recipe span{
+    color: var(--cl-txt_primay);
+    font-size: 1rem;
+    font-weight: 800;
+}
+
 /* bg section */
 
 #app_header{
@@ -245,7 +251,7 @@ hr{
         }
     }
 }
-/* #end region mobile first */
+/* #endregion mobile first */
 
 /* #region tablet */
 @media screen and (min-width: 577px){
@@ -300,6 +306,12 @@ hr{
             height: 100%;
         }
 
+    }
+
+    .recipe span{
+        color: var(--cl-txt_primay);
+        font-size: 1rem;
+        font-weight: 800;
     }
     
 
@@ -440,6 +452,12 @@ hr{
     span, a{
         font-size: 1rem;
         font-weight: 200;
+    }
+
+    .recipe span{
+        color: var(--cl-txt_primay);
+        font-size: 1.5rem;
+        font-weight: 800;
     }
 
     .list-info{
