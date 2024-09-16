@@ -8,8 +8,35 @@
 h1{
     font-family: "Nerko One", cursive;
     color: var(--cl-accents);
-    font-size: 2.5rem;
     text-transform: uppercase;
+}
+
+h2{
+    font-family: "Nerko One", cursive;
+    color: var(--cl-title_recipe);
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: var(--cl-txt_tertiary);
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    color: var(--cl-txt_primay);
+}
+
+#app_header{
+    background-color: var(--bg-header);
+}
+
+#app_main{
+    background-color: var(--bg-main);
+}
+
+#app_footer{
+    background-color: var(--bg-footer);
 }
 
 /* assets */
@@ -29,8 +56,63 @@ h1{
 /* #region mobile first */
 @media screen and (min-width: 425px) {
 
+    .col-sm-12{
+        width: 100%;
+    }
+
+    .container_90{
+        width: 90%;
+        margin: auto;
+    }
+
+    .py-2{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    h3{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    
+
+    .bg-white{
+        background-color: var(--bg-card);
+        padding: 1rem 2rem ;
+    }
+
+/* header */
     .txt_align_center{
         text-align: center;
+    }
+
+/* main */
+
+    .list-info{
+        list-style: none;
+
+        li{
+            text-decoration: none;
+            color: var(--cl-txt_primay);
+            padding-bottom: 0.5rem;
+            font-family: "Montserrat", sans-serif;
+            font-size: 0.90rem;
+        }
     }
 
     
