@@ -38,6 +38,11 @@ p{
     color: var(--cl-txt_primay);
 }
 
+span, a{
+    font-family: "Montserrat", sans-serif;
+    color: var(--cl-txt_secondary);
+}
+
 /* bg section */
 
 #app_header{
@@ -50,6 +55,10 @@ p{
 
 #app_footer{
     background-color: var(--bg-footer);
+
+    ul{
+        list-style: none;
+    }
 }
 
 /* icon */
@@ -155,6 +164,11 @@ hr{
         padding-top: 1.5rem;
     }
 
+    span, a{
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+
     .bg-white{
         background-color: var(--bg-card);
         padding: 1rem 2rem ;
@@ -197,5 +211,27 @@ hr{
         }
     }
     
+    #app_footer{
+        .company_info{
+            text-align: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
+            span{
+                padding-top: 0.5rem;
+                display: inline-block;
+            }
+        }
+
+        .legal_info{
+            padding-bottom: 1rem;
+           ul{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            justify-content: center;
+           }
+        }
+    }
 }
 /* #end region mobile first */
