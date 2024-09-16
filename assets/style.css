@@ -287,6 +287,22 @@ hr{
 
 /* #region desktop s */
 @media screen and (min-width: 769px) {
+
+    .col-desk-6{
+        width: calc((100%/12)*6);
+    }
+
+    .recipe>.row{
+        display: flex;
+        flex-direction: row;
+
+        img{
+            height: 100%;
+        }
+
+    }
+    
+
     .socials>.row{
         display: flex;
         flex-wrap: wrap;
@@ -394,7 +410,7 @@ hr{
 /* #endregion desktop s */
 
 /* #region desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
     h1{
         font-size: 3rem;
@@ -424,6 +440,18 @@ hr{
     span, a{
         font-size: 1rem;
         font-weight: 200;
+    }
+
+    .list-info{
+        list-style: none;
+
+        li{
+            text-decoration: none;
+            color: var(--cl-txt_primay);
+            padding-bottom: 0.5rem;
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.5rem;
+        }
     }
 
     .container_70{
