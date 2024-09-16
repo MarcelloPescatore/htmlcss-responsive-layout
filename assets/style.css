@@ -1,0 +1,23 @@
+/* #region common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* assets */
+:root{
+    --bg-main: #F6F5F3;
+    --bg-header: #FFFFFF;
+    --bg-card: #ffffff;
+    --bg-footer: #7C69A4;
+    --cl-accents: #FF9614;
+    --cl-title_recipe: #7C69A4;
+    --cl-txt_primay: #000000;
+    --cl-txt_secondary: #ffffff;
+    --cl-txt_tertiary: #999999;
+}
+/* #endregion common */
+
+/* #region mobile first */
+/* #end region mobile first */
