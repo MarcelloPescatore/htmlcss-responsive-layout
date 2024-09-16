@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* fonts */
+
 h1{
     font-family: "Nerko One", cursive;
     color: var(--cl-accents);
@@ -27,6 +29,8 @@ p{
     color: var(--cl-txt_primay);
 }
 
+/* bg section */
+
 #app_header{
     background-color: var(--bg-header);
 }
@@ -39,7 +43,45 @@ p{
     background-color: var(--bg-footer);
 }
 
-/* assets */
+/* icon */
+.fa-facebook{
+    color: rgb(0, 128, 255);
+}
+
+.fa-twitter{
+    color: lightblue;
+}
+
+.fa-instagram{
+    color: orangered;
+}
+
+.fa-pinterest, .fa-youtube{
+    color: red;
+}
+
+.socials>.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.social{
+    background-color: var(--bg-card);
+}
+
+/* paddings */
+.py-2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.pb-2{
+    padding-bottom: 2rem;
+}
+
+/* assets color */
 :root{
     --bg-main: #F6F5F3;
     --bg-header: #FFFFFF;
@@ -65,11 +107,6 @@ p{
         margin: auto;
     }
 
-    .py-2{
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-
     h1{
         font-size: 3rem;
     }
@@ -89,11 +126,10 @@ p{
         font-weight: 500;
     }
 
-    
-
     .bg-white{
         background-color: var(--bg-card);
         padding: 1rem 2rem ;
+        box-shadow: 0px 8px 15px -15px #000000;
     }
 
 /* header */
@@ -115,6 +151,11 @@ p{
         }
     }
 
+    .social{
+        padding: 0.5rem 0.75rem;
+        border-radius: 2.5rem;
+        box-shadow: 0px 8px 15px -10px #000000;
+    }
     
 }
 /* #end region mobile first */
