@@ -286,8 +286,6 @@ hr{
 /* #endregion tablet */
 
 /* #region desktop s */
-
-/* #endregion desktop s */
 @media screen and (min-width: 769px) {
     .socials>.row{
         display: flex;
@@ -306,9 +304,97 @@ hr{
             padding-left: 0.5rem;
         }
     }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    h3{
+        font-size: 2.25rem;
+        font-weight: 800;
+        padding-bottom: 1rem;
+    }
+
+    h4{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    span, a{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+    .container_70{
+        width: 70%;
+        margin: auto;
+    }
+
+    .float{
+        float: left;
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
+
+        img{
+            width: 350px;
+        }
+    }
+
+    .social{
+        span{
+            display: inline-block;
+            font-size: 0.9rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: var(--cl-txt_primay);
+            padding-left: 0.5rem;
+        }
+    }
+
+    #app_footer{
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .company_info{
+            text-align: start;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
+            span{
+                padding-top: 0.5rem;
+                display: inline-block;
+            }
+        }
+
+        .legal_info{
+            padding-bottom: 1rem;
+            text-align: end;
+           ul{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            justify-content: center;
+           }
+        }
+    }
 }
+/* #endregion desktop s */
+
 /* #region desktop */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
 
     h1{
         font-size: 3rem;
